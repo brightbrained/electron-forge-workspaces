@@ -1,0 +1,18 @@
+{
+  "name": "electron-forge-workspaces",
+  "version": "1.0.0",
+  "description": "Repro example using electron-forge and npm workspaces",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": {
+    "name": "Magnus Renholm",
+    "email": "magnus.renholm@gmail.com"
+  },
+  "license": "MIT",
+  "workspaces": [
+    "packages/*"
+  ]
+}
